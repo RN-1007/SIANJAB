@@ -337,7 +337,7 @@ class StafUserTable1 extends Component
                 $this->deleteAbkIdeal = $skpd->abk_ideal;
                 $this->deleteAbkBerlebih = $skpd->abk_berlebih;
                 $this->deleteNamaJabatanPermempan45 = $skpd->nama_jabatan_permempan_45;
-                $this->deleteNamaJabatanPermempan41 = $skpd->nama_jabatan_permenpan_41;
+                $this->deleteNamaJabatanPermempan41 = $skpd->nama_jabatan_permempan_41;
                 $this->deleteDataPendukung2024 = $skpd->data_pendukung_2024;
                 $this->deleteDataPendukung = $skpd->data_pendukung;
                 $this->deleteCatatanMahasiswa = $skpd->catatan_mahasiswa;
