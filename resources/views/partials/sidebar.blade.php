@@ -1,15 +1,14 @@
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <a href="#" class="brand-link">
-        <img src="{{ asset('img/LogoMagetan.png') }}" alt="Logo Kabupaten Magetan"
-            class="brand-image img-circle elevation-3" style="opacity: .8">
-        <span class="brand-text font-weight-light">Kabupaten Magetan</span>
+        <img src="{{ asset('img/logo_sianjab.png') }}" alt="Logo Sianjab" class="brand-image img-circle elevation-3"
+            style="opacity: .8">
+        <span class="brand-text font-weight-light">Si Anjab</span>
     </a>
 
     <div class="sidebar">
         <div class="form-inline mt-3">
             <div class="input-group" data-widget="sidebar-search">
-                <input class="form-control form-control-sidebar" type="search" placeholder="Search"
-                    aria-label="Search">
+                <input class="form-control form-control-sidebar" type="search" placeholder="Search" aria-label="Search">
                 <div class="input-group-append">
                     <button class="btn btn-sidebar">
                         <i class="fas fa-search fa-fw"></i>
@@ -19,8 +18,7 @@
         </div>
 
         <nav class="mt-2">
-            <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu"
-                data-accordion="false">
+            <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
                 <li class="nav-item">
                     {{-- Cek jika URL adalah root '/' --}}
                     <a href="/" class="nav-link {{ request()->is('/') ? 'active' : '' }}">
@@ -123,8 +121,7 @@
                         </a>
                         <ul class="nav nav-treeview">
                             <li class="nav-item">
-                                <a href="{{ route('skpd') }}"
-                                    class="nav-link {{ request()->is('skpd*') ? 'active' : '' }}">
+                                <a href="{{ route('skpd') }}" class="nav-link {{ request()->is('skpd*') ? 'active' : '' }}">
                                     <i class="far fa-circle nav-icon"></i>
                                     <p>Data PD</p>
                                 </a>
@@ -143,7 +140,7 @@
                                     <p>Data User</p>
                                 </a>
                             </li>
-                             <li class="nav-item">
+                            <li class="nav-item">
                                 <a href="{{ route('data-uraian-tugas') }}"
                                     class="nav-link {{ request()->is('data-uraian-tugas*') ? 'active' : '' }}">
                                     <i class="far fa-circle nav-icon"></i>
@@ -158,8 +155,7 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="{{ route('tusi') }}"
-                                    class="nav-link {{ request()->is('tusi*') ? 'active' : '' }}">
+                                <a href="{{ route('tusi') }}" class="nav-link {{ request()->is('tusi*') ? 'active' : '' }}">
                                     <i class="far fa-circle nav-icon"></i>
                                     <p>Data Tusi</p>
                                 </a>
