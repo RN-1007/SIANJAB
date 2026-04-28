@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>SiAnjab</title>
-    <link rel="icon" href="{{ asset('img/LogoMagetan.png') }}" type="image/x-icon" />
+    <link rel="icon" href="{{ asset('img/logo_sianjab.png') }}" type="image/x-icon" />
 
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
